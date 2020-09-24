@@ -1,11 +1,17 @@
 
-TIK TOK Clone Tech Stack
+# TIK TOK Clone Tech Stack
 
-Material UI
-Firebase (hosting, database) //realtime rally quick video pulled from database
-CSS hacks
-    Flexbox
-    Snap functionality
+-Material UI
+-Firebase (hosting, database) //realtime really -quick video pulled from database
+-CSS hacks
+    -Flexbox
+    -Snap functionality
 
-3rd Party
-UseRef hooks
+-3rd Party
+-UseRef hooks
+
+## Video Component
+
+-video component is made of these components
+-Video SideBar(heart, chat, share)
+-Footer (ticker, disk spinner)
