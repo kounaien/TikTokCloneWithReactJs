@@ -1,12 +1,19 @@
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Video.css';
 
 
 function Video() {
+    const [playing, setPlay] = useState(false);
     const videoRef = useRef(null);
     const onVideoPress = () => {
-        videoRef.current.play();
+        if (playing) {
+            videoRef.current.pause();
+            setPlay(false);
+        } else {
+            videoRef.current.play();
+            setPlay(true);
+        }
     };
     return (
         
@@ -17,7 +24,7 @@ function Video() {
             loop
             onClick={onVideoPress}
             ref={videoRef}
-            src=""></video>
+            src="sample-movie.mp4"></video>
         </div>
     );
 }
