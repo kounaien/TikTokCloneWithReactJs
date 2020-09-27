@@ -15,3 +15,6 @@
 -video component is made of these components
 -Video SideBar(heart, chat, share)
 -Footer (ticker, disk spinner)
+
+#url
+Hosting URL: https://tiktok-clone-478ec.web.app
